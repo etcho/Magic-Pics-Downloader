@@ -1,0 +1,27 @@
+[lang]
+diretorio_pics=Pics's directory
+iniciar_download=Start download
+sobre=About
+trabalhando=Working
+about1=Developed by
+about2=Criticism, suggestions or bug report:
+diretorio=Directory
+ok=OK
+cancelar=Cancel
+diretorio_pics_invalido=Invalid Pics's directory
+atencao=Warning
+download_de=Download of
+iniciado=Started
+pics_serao_removidas=The pics that currently exist in the directories will be replaced by new. Continue?
+problema_criacao_pasta=Problem creating the collection folder
+baixado=Downloaded
+completo=completed
+cartas=cards
+parado=Stoped
+baixando=Downloading
+dica_usar_lista=To select multiple sets, use the Ctrl and Shift
+dica=Tip
+de=of
+atualizacao_concluida=Update of sets completed. Restart the application to apply the changes.
+atualizacao_disponivel=Update of sets available
+falha_atualizacao=Failure during the update.

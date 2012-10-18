@@ -1,0 +1,54 @@
+unit UnitDirectory;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, FileCtrl, Buttons, inifiles;
+
+type
+  TForm2 = class(TForm)
+    DriveComboBox1: TDriveComboBox;
+    DirectoryListBox1: TDirectoryListBox;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    procedure BitBtn2Click(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+  //cfg: TIniFIle;
+
+implementation
+
+uses UnitMain;
+
+{$R *.dfm}
+
+procedure TForm2.BitBtn2Click(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TForm2.BitBtn1Click(Sender: TObject);
+begin
+  cfg.WriteString('system', 'diretory', DirectoryListBox1.Directory+'\');
+  Form1.Label1.Caption:=DirectoryListBox1.Directory+'\';
+  close;
+end;
+
+procedure TForm2.FormCreate(Sender: TObject);
+begin
+  if DirectoryExists(cfg.ReadString('system', 'diretory', 'c:')) then
+    DirectoryListBox1.Directory:=cfg.ReadString('system', 'diretory', 'c:')
+  else
+    DirectoryListBox1.Directory:='c:';
+end;
+
+end.

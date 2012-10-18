@@ -1,0 +1,27 @@
+[lang]
+diretorio_pics=Diretório das Pics
+iniciar_download=Iniciar download
+sobre=Sobre
+trabalhando=Trabalhando
+about1=Desenvolvido por
+about2=Críticas, sugestões ou bug report:
+diretorio=Diretório
+ok=OK
+cancelar=Cancelar
+diretorio_pics_invalido=Diretório de Pics inválido
+atencao=Atenção
+download_de=Download de
+iniciado=Iniciado
+pics_serao_removidas=As pics existentes atualmente nos diretórios serão substituidas pelas novas. Deseja continuar?
+problema_criacao_pasta=Problema na criação da pasta da coleção
+baixado=Baixado
+completo=completo
+cartas=cartas
+parado=Parado
+baixando=Baixando
+dica_usar_lista=Para selecionar várias coleções utilize as teclas Ctrl e Shift
+dica=Dica
+de=de
+atualizacao_concluida=Atualização de coleções concluida. Reinicie a aplicação para que as mudanças sejam aplicadas.
+atualizacao_disponivel=Atualização de coleções disponivel
+falha_atualizacao=Falha durante a atualização.
